@@ -1,0 +1,14 @@
+program deadlock2to0
+
+resource(2,allocate)
+wait(3)
+resource(0, allocate)
+
+for n=1 to 30
+
+next
+end
+
+
+
+

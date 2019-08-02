@@ -1,0 +1,14 @@
+program resource0to1
+
+resource(0,allocate)
+wait(1)
+resource(1, allocate)
+
+for n=1 to 10
+
+next
+end
+
+
+
+
